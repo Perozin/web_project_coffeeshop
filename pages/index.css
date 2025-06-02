@@ -16,19 +16,29 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
   padding: 30px 80px 40px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 /* ------------------ bloco nav  ------------------ */
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0%;
   font-style: normal;
@@ -49,9 +59,15 @@
 .nav__links {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
   column-gap: 20px;
   list-style-type: none;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
   align-items: baseline;
 }
 
@@ -60,6 +76,8 @@
   padding: 0;
   color: #000;
   text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
@@ -85,7 +103,7 @@
   margin: 0;
   padding: 0;
   display: block;
-  font-family: "Noto Serife";
+  font-family: "Noto Serif", "Times New Roman", "Serif";
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
@@ -98,8 +116,10 @@
 .header__description {
   margin: 28px 0 0;
   max-width: 683px;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
   min-width: min-content;
-  font-family: "Noto Serife";
+  font-family: "Noto Serif", "Times New Roman", "Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -109,6 +129,8 @@
 .space-description {
   margin: 0;
   padding: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   display: block;
 }
@@ -130,60 +152,42 @@
 .header__footer {
   margin-top: auto;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
   color: #838383;
 }
 
-/* ------------------ elemento header__horas  ------------------ */
+/* ------------------ elemento header__content-hours  ------------------ */
 
 .header__content-hours {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 500px;
 }
 
-/* ------------------ elemento título  ------------------ */
+/* ------------------ elemento header__paragraph  ------------------ */
 
-.header__footer-heading {
+.header__paragraph {
   margin: 0;
   padding: 0;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
 }
 
-/* ------------------ elemento lista de itens  ------------------ */
-
-.header__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.header__list-item_semana {
-  margin-right: auto;
-  padding: 0;
-}
-
-.header__list-item_final-semana {
-  margin-right: auto;
-  padding: 0;
-}
-
-/* ------------------ elemento header__endereço  ------------------ */
-
-.header__address {
+.header__paragraph_address {
   margin: auto 0 0;
   padding: 0;
 }
@@ -198,8 +202,14 @@
   background-size: cover;
   margin: 0;
   padding: 100px 80px 215px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  border-radius: 0 0 20px 20px;
 }
 
 /* ------------------ elemento recipes__title ------------------ */
@@ -234,8 +244,14 @@
 .recipes__videos {
   margin-top: 80px;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
   column-gap: 40px;
 }
 
@@ -244,7 +260,12 @@
 .recipes__videos-item {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   right: auto;
   width: auto;
