@@ -209,7 +209,6 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-radius: 0 0 20px 20px;
 }
 
 /* ------------------ elemento recipes__title ------------------ */
@@ -302,8 +301,6 @@
   position: absolute;
   right: 0;
 }
-CSS
-
 
 /* ------------------ section reservation ------------------ */
 
@@ -314,7 +311,7 @@ CSS
   background-position: center;
   background-size: cover;
   margin: 0;
-  padding: 0;
+  padding: 100px 0 104px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -326,15 +323,15 @@ CSS
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 100%;
   box-sizing: border-box;
+  height: 100%;
   width: 100%;
 }
 
 /* ------------------ elemento reservation__title ------------------ */
 
 .reservation__title {
-  margin: 100px 0 0;
+  margin: 0;
   padding: 0;
   font-style: normal;
   font-weight: 500;
@@ -345,7 +342,7 @@ CSS
 /* ------------------ bloco reservation__form ------------------ */
 
 .reservation__form {
-  margin: 64px 0 104px;
+  margin: 64px 0 0;
 }
 
 .form {
