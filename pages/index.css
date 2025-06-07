@@ -331,8 +331,8 @@
 /* ------------------ elemento reservation__title ------------------ */
 
 .reservation__title {
-  margin: 100px 0 80px;
-  padding: 0;
+  margin: 0;
+  padding: 100px 0 80px;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -351,8 +351,6 @@
   padding: 0 40px;
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
-  width: 100%;
 }
 
 /* ------------------ bloco form__fieldset ------------------ */
@@ -363,6 +361,8 @@
   max-width: 385px;
   border: none;
   display: block;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 /* ------------------ elemento form__label ------------------ */
