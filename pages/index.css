@@ -311,7 +311,8 @@
   background-position: center;
   background-size: cover;
   margin: 0;
-  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,7 +332,7 @@
 /* ------------------ elemento reservation__title ------------------ */
 
 .reservation__title {
-  margin: 100px 0 60px;
+  margin: 0;
   padding: 0;
   font-style: normal;
   font-weight: 500;
@@ -342,7 +343,7 @@
 /* ------------------ bloco reservation__form ------------------ */
 
 .reservation__form {
-  margin: 0 0 100px;
+  margin: 60px 0 0;
 }
 
 .form {
