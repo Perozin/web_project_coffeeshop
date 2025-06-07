@@ -331,8 +331,8 @@
 /* ------------------ elemento reservation__title ------------------ */
 
 .reservation__title {
-  margin: 0;
-  padding: 100px 0 80px;
+  margin: 0 auto 80px;
+  padding-top: 100px;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
