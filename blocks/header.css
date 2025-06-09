@@ -1,0 +1,119 @@
+/* ------------------ cabeçalho  ------------------ */
+
+.header {
+  background-color: #fff;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+}
+
+/* ------------------ título  ------------------ */
+
+.header__title {
+  margin: 183px 0 0;
+  padding: 0;
+  max-width: 709px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.span-accent {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", "Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+/* ------------------ descrição  ------------------ */
+
+.header__description {
+  margin: 28px 0 0;
+  padding: 0;
+  max-width: 683px;
+  height: auto;
+  font-family: "Noto Serif", "Times New Roman", "Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* ------------------ image  ------------------ */
+
+.header__image {
+  margin: 0;
+  padding: 0;
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+}
+
+/* ------------------ rodapé  ------------------ */
+
+.header__footer {
+  margin-top: auto;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  color: #838383;
+}
+
+/* ------------------ conteúdo de horas  ------------------ */
+
+.header__content-hours {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 500px;
+}
+
+/* ------------------ horários  ------------------ */
+
+.header__paragraph {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------ endereço  ------------------ */
+
+.header__paragraph_address {
+  margin: auto 0 0;
+  padding: 0;
+}

@@ -1,0 +1,54 @@
+/* ------------------ barra de navegação  ------------------ */
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0%;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* ------------------ logo  ------------------ */
+
+.nav__logo {
+  height: 39px;
+  width: 105px;
+  position: relative;
+  left: -50px;
+}
+
+/* ------------------ links de navegação  ------------------ */
+
+.nav__links {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  list-style-type: none;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.nav__link {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  text-decoration: underline;
+}

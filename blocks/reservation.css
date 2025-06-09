@@ -1,0 +1,41 @@
+/* ------------------ reservas ------------------ */
+
+.reservation {
+  background-image: url("../images/background_reservation.svg");
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+/* ------------------ título ------------------ */
+
+.reservation__title {
+  margin: 0 auto 80px;
+  padding-top: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+/* ------------------ Formulário de reservas ------------------ */
+
+.reservation__form {
+  margin: 0 0 120px;
+}

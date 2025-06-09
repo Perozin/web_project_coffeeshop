@@ -1,0 +1,154 @@
+/* ------------------ rodapé  ------------------ */
+
+.footer {
+  background-color: #0a2850;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 60px 80px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 0 20px 20px;
+}
+
+/* ------------------ conteúdo  ------------------ */
+
+.footer__content {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* ------------------ logo  ------------------ */
+
+.footer__logo {
+  margin: 0;
+  padding: 0;
+  width: 105px;
+  height: 39px;
+  z-index: 2;
+}
+
+/* ------------------ círculo  ------------------ */
+
+.footer__circle {
+  margin: 0;
+  width: 340px;
+  height: 340px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  top: -128px;
+  left: -44px;
+  z-index: 1;
+}
+
+/* ------------------ social  ------------------ */
+
+.footer__social {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/* ------------------ social título  ------------------ */
+
+.footer__social-heading {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: end;
+}
+
+/* ------------------ lista  ------------------ */
+
+.footer__list {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* ------------------ itens da lista  ------------------ */
+
+.footer__list-item {
+  margin: 0;
+}
+
+.footer__list-item_facebook {
+  margin-bottom: 16px;
+}
+
+.footer__list-item_instagram {
+  margin: 0;
+}
+
+/* ------------------ link social  ------------------ */
+
+.footer__social-link {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.footer__social-link:focus {
+  color: #c1c1c1;
+  text-decoration: underline;
+}
+
+/* ------------------ ícone social  ------------------ */
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+  text-decoration: underline;
+}
+
+/* ------------------ copyright  ------------------ */
+
+.footer__copyright {
+  margin: 108px 0 0;
+  padding: 0;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
