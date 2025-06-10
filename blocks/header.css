@@ -33,7 +33,7 @@
   box-sizing: content-box;
 }
 
-.span-accent {
+.header__span-accent {
   margin: 0;
   padding: 0;
   display: block;
