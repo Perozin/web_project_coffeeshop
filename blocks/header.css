@@ -16,6 +16,7 @@
   min-height: 720px;
   max-height: 800px;
   padding: 30px 80px 40px;
+  position: relative;
 }
 
 /* ------------------ título  ------------------ */
@@ -69,6 +70,8 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  object-fit: cover;
+  max-width: 100%;
 }
 
 /* ------------------ rodapé  ------------------ */

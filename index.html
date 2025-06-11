@@ -225,8 +225,14 @@
           </div>
         </div>
 
-        <p class="footer__copyright">© 2023 Marcio Perusin</p>
+        <p class="footer__copyright">
+          &copy; <span id="year"></span> Marcio Perusin
+        </p>
       </footer>
     </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
