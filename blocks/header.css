@@ -65,13 +65,18 @@
 .header__image {
   margin: 0;
   padding: 0;
-  width: 646px;
-  height: 568px;
+  max-width: 646px;
+  max-height: 568px;
   position: absolute;
   top: 124px;
   right: 5px;
   object-fit: cover;
   max-width: 100%;
+
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
 }
 
 /* ------------------ rodapé  ------------------ */
