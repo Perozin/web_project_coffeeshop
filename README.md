@@ -1,4 +1,5 @@
 # Projeto 4: Triple Espresso
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 A página da Triple Espresso é o quarto projeto no programa de desenvolvimento web na TripleTen. Ela foi criada usando HTML e CSS, com base no roteiro.
 
