@@ -17,6 +17,6 @@ A página da Triple Espresso é o quarto projeto no programa de desenvolvimento 
 
 Implementar funcionalidades interativas com JavaScript, bem como integração da aplicação com servidor de banco de dados.
 
-## Página Web
+## Página web do projeto
 
 https://perozin.github.io/web_project_coffeeshop/
